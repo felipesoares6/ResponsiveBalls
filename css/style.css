@@ -37,7 +37,7 @@ nav {
   width: 100%;
   left: 0;
   bottom: 0;
-  background-color: #FFF;
+  background-color: #ff5c00;
   z-index: 10;
 }
 
@@ -388,7 +388,7 @@ footer {
   min-height: 10vh;
   background-color: rgb(255, 77, 0);
   display: flex;
-  margin-bottom: 10vh;
+  margin-bottom: 9vh;
 }
 
 footer ul {
