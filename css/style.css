@@ -29,6 +29,46 @@ img {
   max-width: 100%;
 }
 
+/* nav bar */
+
+nav {
+  height: 10vh;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  background-color: #FFF;
+  z-index: 10;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  width: 25%;
+  height: 10vh;
+  text-align: center;
+  display: flex;
+}
+
+nav a {
+  display: block;
+  margin: auto;
+}
+
+nav span {
+  display: block;
+}
+
+nav span:not(.fa) {
+  font-size: 0.8rem;
+}
+
+nav .fa {
+  font-size: 1.8rem;
+}
+
 /* header */
 
 header {
@@ -341,6 +381,7 @@ footer {
   min-height: 10vh;
   background-color: rgb(255, 77, 0);
   display: flex;
+  margin-bottom: 10vh;
 }
 
 footer ul {
