@@ -43,6 +43,7 @@ nav {
 
 nav ul {
   display: flex;
+  margin-top: 0;
 }
 
 nav li {
@@ -67,6 +68,12 @@ nav span:not(.fa) {
 
 nav .fa {
   font-size: 1.8rem;
+}
+
+@media (min-width:1024px){
+  nav {
+    top: 0;
+  }
 }
 
 /* header */
@@ -402,4 +409,12 @@ footer li {
 
 footer a:hover {
   color: #FFF;
+}
+
+@media (min-width:1024px){
+
+    /* correção do footer pela div*/
+    footer {
+      margin-bottom: 0;
+    }
 }
